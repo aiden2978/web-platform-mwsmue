@@ -4,6 +4,7 @@
     <title>BOOK</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css" />
+    <script type = "module" src = "script.js"></script>
 </head>
 <body>
   <header>
@@ -40,14 +41,7 @@
               <img src = "https://data.ac-illust.com/data/thumbnails/5c/5c2f9076c6a00ea6f7f266199dde85e5_t.jpeg" style = "width: 100px; height: 80px; display: inline;">
             </td>
             <td>
-              <button id="modal_open">16시</button>
-              <div id="modal">
-                <div class="modal_content">
-                 <p>A 풋살장 16시 예약하기</p>
-                 <button id="modal_close">예약하기</button>
-                </div>
-                <div class = "modal_layer"></div>
-              </div>
+              <button>16시</button>
               <button class="court-1ist-1-17">17시</button>
               <button class="court-1ist-1-18">18시</button>
               <button class="court-1ist-1-19">19시</button>
@@ -81,13 +75,3 @@
   </main>
 </body>
 </html>
-
-<script>
-  document.getElementById("modal_open").onclick = function() {
-    document.getElementById("modal").style.display = "block";
-  }
-
-  document.getElementById("modal_close").onclick = function() {
-    document.getElementById("modal").style.display = "none";
-  }
-</script>
