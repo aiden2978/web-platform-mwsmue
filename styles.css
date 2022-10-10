@@ -151,3 +151,15 @@ h3 {
   background: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
+
+#downmenu {
+  position: fixed;
+}
+
+#downmenu .writelink {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
